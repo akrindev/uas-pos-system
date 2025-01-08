@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
     exclude: ["lucide-react"],
-    base: "/uas-pos-system/",
   },
+  base: "/uas-pos-system/",
 });
